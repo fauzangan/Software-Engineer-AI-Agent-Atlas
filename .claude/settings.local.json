@@ -31,17 +31,5 @@
   "enabledMcpjsonServers": [
     "playwright"
   ],
-  "hooks": {
-    "Stop": [
-      {
-        "matcher": "",
-        "hooks": [
-          {
-            "type": "command",
-            "command": "node 'SELF/BODY/COMPLETE_VOICE_HOOK_SCRIPT.js'"
-          }
-        ]
-      }
-    ]
-  }
+  "hooks": {}
 }

@@ -3,6 +3,10 @@
     "playwright": {
       "command": "cmd",
       "args": ["/c", "npx", "@playwright/mcp@latest", "--browser", "chrome"]
+    },
+    "postgres": {
+      "command": "cmd",
+      "args": ["/c", "npx", "-y", "@modelcontextprotocol/server-postgres", "postgresql://postgres:postgres@localhost:5432/postgres"]
     }
   }
 }
